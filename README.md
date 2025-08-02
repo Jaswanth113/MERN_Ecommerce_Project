@@ -4,6 +4,16 @@ A full-stack E-commerce web application built with the MERN stack (MongoDB, Expr
 
 ---
 
+## Grocery Shopping Platform Overview
+
+- Developed an end-to-end grocery shopping platform that allows users to browse products, view details, and add items to their cart.
+- Implemented real-time inventory tracking using MongoDB to streamline stock management.
+- A responsive, user-friendly interface for smooth navigation.
+- **Tech Stack**: MongoDB, Express.js, React, Node.js, CSS
+
+---
+
+
 ##  Project Setup Instructions
 
 ###  Backend Setup
