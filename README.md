@@ -1,75 +1,95 @@
-# MERN_Ecommerce_Project
+# MERN E-commerce Project
 
-# E-commerce Project 'NexKart'
+A full-stack E-commerce web application built with the MERN stack (MongoDB, Express, React, Node.js). This project includes a **Customer Frontend**, **Backend API**, and **Admin Dashboard**.
 
-Here's the setup instructions to fire up 'NexKart' on your machine!
+---
 
-## Backend Setup Instructions
+##  Project Setup Instructions
 
+###  Backend Setup
 
-1. **Download and Extract Code**: Download the repository and extract all folders into a single directory on your machine.
+1. **Navigate to the Backend Directory**  
+   Open your terminal and move into the backend folder:
+   ```
+   cd path/to/e-commerce-backend
+   ```
 
-2. **Navigate to the Backend Directory**: Open your integrated terminal and navigate to the 'e-commerce-backend' directory:
-    ```bash
-    cd path/to/e-commerce-backend
-    ```
+2. **Install Dependencies**  
+   ```
+   npm install
+   ```
 
-3. **Install Backend Dependencies**: Run the following command to install the necessary npm packages:
-    ```bash
-    npm install
-    ```
+3. **Start Backend Server**  
+   ```
+   node index.js
+   ```
 
-4. **Run the Backend Server**: Once the installation is complete, start the backend server by running:
-    ```bash
-    node ./index.js
-    ```
+4. **Verify Server is Running**  
+   You should see:
+   ```
+   Server Running on port 4000
+   ```
 
-5. **Verify Server Running**: If all steps are successful, you should see the message 'Server Running on port 4000' in the terminal.
+---
 
+### Frontend Setup
 
-## Frontend Setup Instructions
+1. **Navigate to the Frontend Directory**  
+   ```
+   cd path/to/e-commerce-frontend
+   ```
 
+2. **Install Dependencies**  
+   ```
+   npm install
+   ```
 
-1. **Navigate to the Frontend Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-frontend' directory:
-    ```bash
-    cd path/to/e-commerce-frontend
-    ```
+3. **Start Frontend Application**  
+   ```
+   npm start
+   ```
 
-2. **Install Frontend Dependencies**: Run the following command to install the necessary npm packages:
-    ```bash
-    npm install
-    ```
+4. **View Application**  
+   Open your browser and go to:
+   ```
+   http://localhost:3000
+   ```
 
-3. **Run the Frontend Webpage**: Once the modules are installed, start the frontend webpage by running:
-    ```bash
-    npm start
-    ```
+---
 
-4. **Access Frontend**: Open your web browser and go to `http://localhost:3000` to view the frontend of the e-commerce application.
+###  Admin Dashboard Setup
 
+1. **Navigate to the Admin Directory**  
+   ```
+   cd path/to/e-commerce-admin
+   ```
 
-## Admin Page Setup Instructions
+2. **Install Dependencies**  
+   ```
+   npm install
+   ```
 
+3. **Start Admin Dashboard**  
+   ```
+   npm start
+   ```
 
-1. **Navigate to the Admin Page Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-admin' directory:
-    ```bash
-    cd path/to/e-commerce-admin
-    ```
+4. **View Admin Panel**  
+   Visit:
+   ```
+   http://localhost:3001
+   ```
 
-2. **Install Admin Page Dependencies**: Run the following command to install the necessary npm packages:
-    ```bash
-    npm install
-    ```
+---
 
-3. **Run the Admin Page**: Once the modules are installed, start the admin page by running:
-    ```bash
-    npm start
-    ```
+##  Configuration Notes
 
-4. **Access Admin Page**: Open your web browser and go to `http://localhost:3001` to view the admin page of the e-commerce application.
+- **Ports**:  
+  - Backend: `http://localhost:4000`  
+  - Frontend: `http://localhost:3000`  
+  - Admin Panel: `http://localhost:3001`
 
-
-## Additional Configuration
-
-
-- **Port Configuration**: If needed, you can change the port configurations in the respective 'index.js' files for the backend and 'package.json' files for the frontend and admin pages.
+- **Changing Ports**:  
+  You can modify port numbers in:
+  - `index.js` for the backend  
+  - `package.json` for the frontend and admin panel
